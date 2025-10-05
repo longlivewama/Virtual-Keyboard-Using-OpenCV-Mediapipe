@@ -1,30 +1,29 @@
-
 # Virtual Hand Keyboard using OpenCV & MediaPipe
 
-![Demo](Screenshot%202025-10-05%20213953.png)
+![Project Preview](pic1.png)
 
-This project implements a virtual keyboard controlled by hand gestures using a webcam.
-It uses MediaPipe Hands for real-time hand tracking and OpenCV for visualization.
+This project implements a virtual keyboard controlled by hand gestures using a webcam.  
+It uses MediaPipe Hands for real-time hand tracking and OpenCV for visualization.  
 You can type by moving your index finger over virtual keys and tapping with a simple gesture — no physical keyboard needed.
 
 ---
 
 ## Abstract
 
-The goal of this project is to create a vision-based virtual keyboard that allows users to type through hand gestures instead of a physical device.
+The goal of this project is to create a vision-based virtual keyboard that allows users to type through hand gestures instead of a physical device.  
 Using MediaPipe’s hand tracking and OpenCV’s image processing, this system detects finger movements, recognizes gestures, and translates them into virtual key presses in real time.
 
 ---
 
 ## Features
 
-* Real-time hand tracking using MediaPipe Hands
-* Full-screen virtual keyboard interface
-* Tap gesture detection for key presses
-* Support for Shift, Caps, Space, Enter, and Delete
-* Transparent keyboard overlay (so the user remains visible)
-* Saves typed text to `typed_output.txt`
-* Works smoothly on standard webcams
+* Real-time hand tracking using MediaPipe Hands  
+* Full-screen virtual keyboard interface  
+* Tap gesture detection for key presses  
+* Support for Shift, Caps, Space, Enter, and Delete  
+* Transparent keyboard overlay (so the user remains visible)  
+* Saves typed text to `typed_output.txt`  
+* Works smoothly on standard webcams  
 
 ---
 
@@ -43,12 +42,12 @@ Using MediaPipe’s hand tracking and OpenCV’s image processing, this system d
 
 ## System Architecture
 
-1. Capture webcam input
-2. Detect hand landmarks using MediaPipe Hands
-3. Identify index and middle finger positions
-4. Detect tap gestures based on finger distance
-5. Map coordinates to corresponding on-screen keys
-6. Display the pressed key and append it to the output
+1. Capture webcam input  
+2. Detect hand landmarks using MediaPipe Hands  
+3. Identify index and middle finger positions  
+4. Detect tap gestures based on finger distance  
+5. Map coordinates to corresponding on-screen keys  
+6. Display the pressed key and append it to the output  
 
 ---
 
@@ -86,6 +85,14 @@ python virtual_keyboard.py
 | Delete            | Removes last character |
 | Enter             | Saves line to file     |
 | Q (keyboard)      | Quit manually          |
+
+---
+
+## Experimental Results
+
+Below are real-time examples of the virtual keyboard, hand tracking, and gesture detection:
+
+![Virtual Keyboard Demo](pic2.png)
 
 ---
 
