@@ -1,7 +1,7 @@
 
 # Virtual Hand Keyboard using OpenCV & MediaPipe
 
-![Experimental Results](dfbff06d-c14e-48b1-ae2f-61f8c2fb5429.png)
+![Demo](Screenshot%202025-10-05%20213953.png)
 
 This project implements a virtual keyboard controlled by hand gestures using a webcam.
 It uses MediaPipe Hands for real-time hand tracking and OpenCV for visualization.
