@@ -89,32 +89,7 @@ python virtual_keyboard.py
 
 ---
 
-## Experimental Results
-
-Below are real-time examples of the virtual keyboard, hand tracking, and gesture detection:
-
-![Virtual Keyboard Demo](dfbff06d-c14e-48b1-ae2f-61f8c2fb5429.png)
-
----
-
 ## Author
-
-**Ahmed Fahim**
-Faculty of Artificial Intelligence – Data Science Major
-
-LinkedIn: [www.linkedin.com/in/longlivewama](https://www.linkedin.com/in/longlivewama)
-GitHub: [github.com/ahmedfahim](https://github.com/ahmedfahim)
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-تحب أضيفلك بعد كده **قسم "Future Work"** في آخره (زي: دعم التعرف على الإشارات بالعربي أو دمجه مع الذكاء الاصطناعي للتصحيح التلقائي)؟ ده بيخلي الصفحة شكلها بحثي أكتر.
-
 
 **Ahmed Fahim**
 Faculty of Artificial Intelligence – Data Science Major
